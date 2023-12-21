@@ -1,0 +1,57 @@
+body{
+  display: inline;
+}
+
+body.AdminLoginPage{
+  display: inline;
+  background-image: url(https://i.pinimg.com/736x/7c/04/06/7c040612ca963b2790a7539b20153c3f.jpg);
+  background-repeat: no-repeat;
+  background-size: 36%;
+  background-position: 0%;
+  background-position-y: 80px;
+}
+.admin-login-container {
+    text-align: center;
+    margin: 20px;
+    margin-left: 200px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+
+  .admin-login-form {
+    border: 2px solid #333;
+    margin-top: 200px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    background-color: rgb(200, 200, 200);
+    flex-direction: column;
+    max-width: 300px;
+    margin-left: 720px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
