@@ -1,0 +1,32 @@
+/* MarksPage.css */
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 250px;
+    margin-left: 370px;
+  }
+  
+  thead {
+    margin-top: 30px;
+    background-color: #333; 
+    color: white; 
+  }
+  
+  th {
+    padding: 10px 15px;
+    text-align: left;
+  }
+  
+  td {
+    padding: 8px 15px;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #dac5c5;
+}
+  
+  tbody tr:hover {
+    background-color: #777; /* Light gray background on hover */
+  }
+  
